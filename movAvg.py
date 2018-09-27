@@ -178,7 +178,7 @@ model.summary()
 # In[43]:
 
 
-XMR % ret = DASH % ret * 0.6451
+'XMR % ret = DASH % ret * 0.6451'
 
 
 # In[42]:
@@ -254,7 +254,7 @@ ma_df = test_ma(df, 1000, 5000).dropna()
 # In[50]:
 
 
-ma_df['regime']plot(figsize=(16,5))
+ma_df['regime'].plot(figsize=(16,5))
 
 
 # In[ ]:
@@ -266,9 +266,9 @@ ma_df[['Market','Strategy']].iloc[-1]
 # In[ ]:
 
 
-Market       0.422360
+'''Market       0.422360
 Strategy    10.384434
-Name: 2017-10-11 13:10:00, dtype: float64
+Name: 2017-10-11 13:10:00, dtype: float64'''
 
 
 # In[51]:
@@ -299,7 +299,7 @@ for lead, lag in lead_lags:
 
 PNLs = pnls[pnls.columns].astype(float)
 plt.subplots(figsize = (14,10))
-sns.heatmap(PNLs,cmap=’PiYG’)
+'''sns.heatmap(PNLs,cmap=’PiYG’)'''
 
 
 # In[ ]:
