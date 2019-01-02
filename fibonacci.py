@@ -18,7 +18,7 @@ while(i<12):
     F_n_2 = F_n_1
     F_n_1 = F_n
 
-print(fibArray)
+print(fibArray)     
 
 rn.shuffle(fibArray)
 
